@@ -1,0 +1,24 @@
+# Program 1 by Group12 for Project3
+# 28, Oct, 2018
+
+00000000              # init R0, 0
+00011000              # ld R2, R0          # R2 = P
+10000001              # init R0, 1
+00010100              # ld R1, R0          # R1 = Q
+10001110              # init R3, 6         # R3 = MUX[3] = 6, the result of calculation
+10000001              # init R0, 1         # the exponential counter
+L1:                   # jpu1 MUX[01] = 6 (instruction mem address)
+01111110              # R3x6               # R3 = R3 * 6
+01110100              # inc R0
+10111101              # add R3, R1         # R3 = R3 + Q
+L2:                   # jpu1 MUX[00] = 9 (instruction mem address)
+01110001              # subR3 R1           # R3 = R3 - Q
+11001100              # jpu1 R1, R3, 9     # jump to L2 if R1 < R3 (Q < Result) there should be Q<= Result
+01000001              # jpu1 R0, R2, 6     # jump to L1 if R0 < R2 (counter < P)
+Finish:
+01011100              # jpu2 R3, R1, 14    # R3 should <= R1(Q) here, if R3 < R1 (Result < Q) jump to END
+01110001              # subR3 R1           # PC goes here only if R3 = R1 (Result = Q), when should subtract Q one more time
+END:                  # jpu2 MUX[00] = 14 (instruction mem address)
+00000101              # init R1, 1
+11110101              # inc R1             # R1 = 2
+00101101              # st R3, R1

@@ -1,0 +1,2317 @@
+/Users/ketch/anaconda3/bin/python3 /Users/ketch/Documents/Homework&Presentation/ComputerOrganization/project4/mips_sim.py
+Welcome to ECE366 sample MIPS_sim
+Please choose files to run:
+1) A1.txt    2)A2.txt     3)B1.txt     4)B2.txt
+3
+please choose mode:
+1 = debug mode         2 = normal execution
+1
+You can customize your cache configuration:
+block size(wd):4
+num of way:1
+num of set:2
+
+======== Starting simulation ========
+Cycles 0:
+PC =0 Instruction: 0x20010002 :addi $0,$0,$2
+Taking 4 cycles
+
+Cycles 4:
+PC =4 Instruction: 0x2002001c :addi $0,$0,$28
+Taking 4 cycles
+
+Cycles 8:
+PC =8 Instruction: 0xac412000 :sw $2,28(0x2000)
+Taking 4 cycles
+
+Cycles 12:
+PC =12 Instruction: 0x2042fffc :addi $31,$2,$-4
+Taking 4 cycles
+
+Cycles 16:
+PC =16 Instruction: 0x10400004 :beq $2,$0,4
+Taking 3 cycles
+
+Cycles 19:
+PC =20 Instruction: 0x00210820 :add $1,$1,$1
+Taking 4 cycles
+
+Cycles 23:
+PC =24 Instruction: 0x00010822 :sub $1,$0,$1
+Taking 4 cycles
+
+Cycles 27:
+PC =28 Instruction: 0x20210003 :addi $0,$1,$3
+Taking 4 cycles
+
+Cycles 31:
+PC =32 Instruction: 0x1063fff9 :beq $3,$3,-7
+Taking 3 cycles
+
+Cycles 34:
+PC =8 Instruction: 0xac412000 :sw $2,24(0x2000)
+Taking 4 cycles
+
+Cycles 38:
+PC =12 Instruction: 0x2042fffc :addi $31,$2,$-4
+Taking 4 cycles
+
+Cycles 42:
+PC =16 Instruction: 0x10400004 :beq $2,$0,4
+Taking 3 cycles
+
+Cycles 45:
+PC =20 Instruction: 0x00210820 :add $1,$1,$1
+Taking 4 cycles
+
+Cycles 49:
+PC =24 Instruction: 0x00010822 :sub $1,$0,$1
+Taking 4 cycles
+
+Cycles 53:
+PC =28 Instruction: 0x20210003 :addi $0,$1,$3
+Taking 4 cycles
+
+Cycles 57:
+PC =32 Instruction: 0x1063fff9 :beq $3,$3,-7
+Taking 3 cycles
+
+Cycles 60:
+PC =8 Instruction: 0xac412000 :sw $2,20(0x2000)
+Taking 4 cycles
+
+Cycles 64:
+PC =12 Instruction: 0x2042fffc :addi $31,$2,$-4
+Taking 4 cycles
+
+Cycles 68:
+PC =16 Instruction: 0x10400004 :beq $2,$0,4
+Taking 3 cycles
+
+Cycles 71:
+PC =20 Instruction: 0x00210820 :add $1,$1,$1
+Taking 4 cycles
+
+Cycles 75:
+PC =24 Instruction: 0x00010822 :sub $1,$0,$1
+Taking 4 cycles
+
+Cycles 79:
+PC =28 Instruction: 0x20210003 :addi $0,$1,$3
+Taking 4 cycles
+
+Cycles 83:
+PC =32 Instruction: 0x1063fff9 :beq $3,$3,-7
+Taking 3 cycles
+
+Cycles 86:
+PC =8 Instruction: 0xac412000 :sw $2,16(0x2000)
+Taking 4 cycles
+
+Cycles 90:
+PC =12 Instruction: 0x2042fffc :addi $31,$2,$-4
+Taking 4 cycles
+
+Cycles 94:
+PC =16 Instruction: 0x10400004 :beq $2,$0,4
+Taking 3 cycles
+
+Cycles 97:
+PC =20 Instruction: 0x00210820 :add $1,$1,$1
+Taking 4 cycles
+
+Cycles 101:
+PC =24 Instruction: 0x00010822 :sub $1,$0,$1
+Taking 4 cycles
+
+Cycles 105:
+PC =28 Instruction: 0x20210003 :addi $0,$1,$3
+Taking 4 cycles
+
+Cycles 109:
+PC =32 Instruction: 0x1063fff9 :beq $3,$3,-7
+Taking 3 cycles
+
+Cycles 112:
+PC =8 Instruction: 0xac412000 :sw $2,12(0x2000)
+Taking 4 cycles
+
+Cycles 116:
+PC =12 Instruction: 0x2042fffc :addi $31,$2,$-4
+Taking 4 cycles
+
+Cycles 120:
+PC =16 Instruction: 0x10400004 :beq $2,$0,4
+Taking 3 cycles
+
+Cycles 123:
+PC =20 Instruction: 0x00210820 :add $1,$1,$1
+Taking 4 cycles
+
+Cycles 127:
+PC =24 Instruction: 0x00010822 :sub $1,$0,$1
+Taking 4 cycles
+
+Cycles 131:
+PC =28 Instruction: 0x20210003 :addi $0,$1,$3
+Taking 4 cycles
+
+Cycles 135:
+PC =32 Instruction: 0x1063fff9 :beq $3,$3,-7
+Taking 3 cycles
+
+Cycles 138:
+PC =8 Instruction: 0xac412000 :sw $2,8(0x2000)
+Taking 4 cycles
+
+Cycles 142:
+PC =12 Instruction: 0x2042fffc :addi $31,$2,$-4
+Taking 4 cycles
+
+Cycles 146:
+PC =16 Instruction: 0x10400004 :beq $2,$0,4
+Taking 3 cycles
+
+Cycles 149:
+PC =20 Instruction: 0x00210820 :add $1,$1,$1
+Taking 4 cycles
+
+Cycles 153:
+PC =24 Instruction: 0x00010822 :sub $1,$0,$1
+Taking 4 cycles
+
+Cycles 157:
+PC =28 Instruction: 0x20210003 :addi $0,$1,$3
+Taking 4 cycles
+
+Cycles 161:
+PC =32 Instruction: 0x1063fff9 :beq $3,$3,-7
+Taking 3 cycles
+
+Cycles 164:
+PC =8 Instruction: 0xac412000 :sw $2,4(0x2000)
+Taking 4 cycles
+
+Cycles 168:
+PC =12 Instruction: 0x2042fffc :addi $31,$2,$-4
+Taking 4 cycles
+
+Cycles 172:
+PC =16 Instruction: 0x10400004 :beq $2,$0,4
+Taking 3 cycles
+
+Cycles 175:
+PC =36 Instruction: 0x20060028 :addi $0,$0,$40
+Taking 4 cycles
+
+Cycles 179:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 183:
+PC =44 Instruction: 0x8c412004 :lw $2,4(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2004
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 128
+                  0x00000000
+                  0x00000041
+                  0xffffffe1
+                  0x00000011
+        block 1 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+        block 2 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+        block 3 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 256
+                  0x00000000
+                  0x00000041
+        block 1 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+        block 2 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+        block 3 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   0                  valid:   0                  valid:   0
+                  tag  :1024                  tag  :None                  tag  :None                  tag  :None
+                  0x00000000                  0x00000000                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000                  0x00000000                  0x00000000
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000
+         set 1 :
+                  valid:   0                  valid:   0
+                  tag  :None                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000000                  0x00000000
+         set 2 :
+                  valid:   0                  valid:   0
+                  tag  :None                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000000                  0x00000000
+         set 3 :
+                  valid:   0                  valid:   0
+                  tag  :None                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000000                  0x00000000
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 256
+                  0x00000000
+                  0x00000041
+                  0xffffffe1
+                  0x00000011
+        block 1 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+=== Cache Log End ====
+
+Cycles 188:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 192:
+PC =52 Instruction: 0x8c412008 :lw $2,8(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2008
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 256
+                  0x00000000
+                  0x00000041
+        block 1 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffe1
+                  0x00000011
+        block 2 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+        block 3 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   0                  valid:   0
+                  tag  :1024                  tag  :1025                  tag  :None                  tag  :None
+                  0x00000000                  0xffffffe1                  0x00000000                  0x00000000
+                  0x00000041                  0x00000011                  0x00000000                  0x00000000
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000
+         set 1 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffe1                  0x00000000
+                  0x00000011                  0x00000000
+         set 2 :
+                  valid:   0                  valid:   0
+                  tag  :None                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000000                  0x00000000
+         set 3 :
+                  valid:   0                  valid:   0
+                  tag  :None                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000000                  0x00000000
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 197:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 201:
+PC =60 Instruction: 0x8c41200c :lw $2,12(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x200c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1025
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 206:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 210:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 214:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 217:
+PC =76 Instruction: 0x00802820 :add $5,$4,$0
+Taking 4 cycles
+
+Cycles 221:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 225:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 228:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 232:
+PC =44 Instruction: 0x8c412004 :lw $2,8(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2008
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1025
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 237:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 241:
+PC =52 Instruction: 0x8c412008 :lw $2,12(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x200c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1025
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 246:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 250:
+PC =60 Instruction: 0x8c41200c :lw $2,16(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2010
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 128
+                  0x00000000
+                  0x00000041
+                  0xffffffe1
+                  0x00000011
+        block 1 :
+                  valid: 1
+                  tag  : 128
+                  0xfffffff9
+                  0x00000005
+                  0xffffffff
+                  0x00000002
+        block 2 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+        block 3 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 256
+                  0x00000000
+                  0x00000041
+        block 1 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffe1
+                  0x00000011
+        block 2 :
+                  valid: 1
+                  tag  : 256
+                  0xfffffff9
+                  0x00000005
+        block 3 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   1                  valid:   0
+                  tag  :1024                  tag  :1025                  tag  :1026                  tag  :None
+                  0x00000000                  0xffffffe1                  0xfffffff9                  0x00000000
+                  0x00000041                  0x00000011                  0x00000005                  0x00000000
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000
+         set 1 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffe1                  0x00000000
+                  0x00000011                  0x00000000
+         set 2 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xfffffff9                  0x00000000
+                  0x00000005                  0x00000000
+         set 3 :
+                  valid:   0                  valid:   0
+                  tag  :None                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000000                  0x00000000
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 256
+                  0x00000000
+                  0x00000041
+                  0xffffffe1
+                  0x00000011
+        block 1 :
+                  valid: 1
+                  tag  : 256
+                  0xfffffff9
+                  0x00000005
+                  0xffffffff
+                  0x00000002
+=== Cache Log End ====
+
+Cycles 255:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 259:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 263:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 266:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 270:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 273:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 277:
+PC =44 Instruction: 0x8c412004 :lw $2,12(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x200c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1025
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 282:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 286:
+PC =52 Instruction: 0x8c412008 :lw $2,16(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2010
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1026
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 291:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 295:
+PC =60 Instruction: 0x8c41200c :lw $2,20(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2014
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1026
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 300:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 304:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 308:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 311:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 315:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 318:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 322:
+PC =44 Instruction: 0x8c412004 :lw $2,16(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2010
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1026
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 327:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 331:
+PC =52 Instruction: 0x8c412008 :lw $2,20(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2014
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1026
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 336:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 340:
+PC =60 Instruction: 0x8c41200c :lw $2,24(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2018
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 256
+                  0x00000000
+                  0x00000041
+        block 1 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffe1
+                  0x00000011
+        block 2 :
+                  valid: 1
+                  tag  : 256
+                  0xfffffff9
+                  0x00000005
+        block 3 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffff
+                  0x00000002
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   1                  valid:   1
+                  tag  :1024                  tag  :1025                  tag  :1026                  tag  :1027
+                  0x00000000                  0xffffffe1                  0xfffffff9                  0xffffffff
+                  0x00000041                  0x00000011                  0x00000005                  0x00000002
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000
+         set 1 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffe1                  0x00000000
+                  0x00000011                  0x00000000
+         set 2 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xfffffff9                  0x00000000
+                  0x00000005                  0x00000000
+         set 3 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffff                  0x00000000
+                  0x00000002                  0x00000000
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 345:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 349:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 353:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 356:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 360:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 363:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 367:
+PC =44 Instruction: 0x8c412004 :lw $2,20(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2014
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1026
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 372:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 376:
+PC =52 Instruction: 0x8c412008 :lw $2,24(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2018
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1027
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 381:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 385:
+PC =60 Instruction: 0x8c41200c :lw $2,28(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x201c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1027
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 390:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 394:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 398:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 401:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 405:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 408:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 412:
+PC =44 Instruction: 0x8c412004 :lw $2,24(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2018
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1027
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 417:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 421:
+PC =52 Instruction: 0x8c412008 :lw $2,28(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x201c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1027
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 426:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 430:
+PC =60 Instruction: 0x8c41200c :lw $2,32(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2020
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 128
+                  0x00000000
+                  0x00000041
+                  0xffffffe1
+                  0x00000011
+        block 1 :
+                  valid: 1
+                  tag  : 128
+                  0xfffffff9
+                  0x00000005
+                  0xffffffff
+                  0x00000002
+        block 2 :
+                  valid: 1
+                  tag  : 128
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+        block 3 :
+                  valid: 0
+                  tag  : None
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 256
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+        block 1 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffe1
+                  0x00000011
+        block 2 :
+                  valid: 1
+                  tag  : 256
+                  0xfffffff9
+                  0x00000005
+        block 3 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffff
+                  0x00000002
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1024
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   1                  valid:   1
+                  tag  :1028                  tag  :1025                  tag  :1026                  tag  :1027
+                  0x00000000                  0xffffffe1                  0xfffffff9                  0xffffffff
+                  0x00000000                  0x00000011                  0x00000005                  0x00000002
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1
+                  tag  :256                  tag  :257
+                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000
+         set 1 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffe1                  0x00000000
+                  0x00000011                  0x00000000
+         set 2 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xfffffff9                  0x00000000
+                  0x00000005                  0x00000000
+         set 3 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffff                  0x00000000
+                  0x00000002                  0x00000000
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 256
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+        block 1 :
+                  valid: 1
+                  tag  : 256
+                  0xfffffff9
+                  0x00000005
+                  0xffffffff
+                  0x00000002
+=== Cache Log End ====
+
+Cycles 435:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 439:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 443:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 446:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 450:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 453:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 457:
+PC =44 Instruction: 0x8c412004 :lw $2,28(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x201c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1027
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 3
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 462:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 466:
+PC =52 Instruction: 0x8c412008 :lw $2,32(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2020
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1028
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 471:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 475:
+PC =60 Instruction: 0x8c41200c :lw $2,36(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2024
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1028
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 480:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 484:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 488:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 491:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 495:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 498:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 502:
+PC =44 Instruction: 0x8c412004 :lw $2,32(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2020
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1028
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 507:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 511:
+PC =52 Instruction: 0x8c412008 :lw $2,36(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2024
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1028
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 516:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 520:
+PC =60 Instruction: 0x8c41200c :lw $2,40(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2028
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+        block 1 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+        block 2 :
+                  valid: 1
+                  tag  : 256
+                  0xfffffff9
+                  0x00000005
+        block 3 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffff
+                  0x00000002
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1028
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   1                  valid:   1
+                  tag  :1029                  tag  :1025                  tag  :1026                  tag  :1027
+                  0x00000000                  0xffffffe1                  0xfffffff9                  0xffffffff
+                  0x00000000                  0x00000011                  0x00000005                  0x00000002
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1
+                  tag  :256                  tag  :257
+                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000
+         set 1 :
+                  valid:   1                  valid:   1
+                  tag  :256                  tag  :257
+                  0xffffffe1                  0x00000000
+                  0x00000011                  0x00000000
+         set 2 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xfffffff9                  0x00000000
+                  0x00000005                  0x00000000
+         set 3 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffff                  0x00000000
+                  0x00000002                  0x00000000
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 525:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 529:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 533:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 536:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 540:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 543:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 547:
+PC =44 Instruction: 0x8c412004 :lw $2,36(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2024
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1029
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   1                  valid:   1
+                  tag  :1028                  tag  :1025                  tag  :1026                  tag  :1027
+                  0x00000000                  0xffffffe1                  0xfffffff9                  0xffffffff
+                  0x00000000                  0x00000011                  0x00000005                  0x00000002
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 552:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 556:
+PC =52 Instruction: 0x8c412008 :lw $2,40(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2028
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1028
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   1                  valid:   1
+                  tag  :1029                  tag  :1025                  tag  :1026                  tag  :1027
+                  0x00000000                  0xffffffe1                  0xfffffff9                  0xffffffff
+                  0x00000000                  0x00000011                  0x00000005                  0x00000002
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 561:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 565:
+PC =60 Instruction: 0x8c41200c :lw $2,44(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x202c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1029
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 570:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 574:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 578:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 581:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 585:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 588:
+PC =40 Instruction: 0x00002020 :add $4,$0,$0
+Taking 4 cycles
+
+Cycles 592:
+PC =44 Instruction: 0x8c412004 :lw $2,40(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2028
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1029
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 597:
+PC =48 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 601:
+PC =52 Instruction: 0x8c412008 :lw $2,44(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x202c
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 128
+   hit or not        : True
+   cache update info : no update
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1029
+   hit or not        : True
+   cache update info : no update
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+
+E. Customized cache configuration
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 257
+   hit or not        : True
+   cache update info : no update
+=== Cache Log End ====
+
+Cycles 606:
+PC =56 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 610:
+PC =60 Instruction: 0x8c41200c :lw $2,48(0x2000)
+Taking 5 cycles
+
+==== Cache Access Log ====
+target mem: 0x2030
+A. DM, 4 blocks, 4 words each block
+   blk/set to access : 3
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 128
+                  0x00000000
+                  0x00000041
+                  0xffffffe1
+                  0x00000011
+        block 1 :
+                  valid: 1
+                  tag  : 128
+                  0xfffffff9
+                  0x00000005
+                  0xffffffff
+                  0x00000002
+        block 2 :
+                  valid: 1
+                  tag  : 128
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+        block 3 :
+                  valid: 1
+                  tag  : 128
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+
+B. DM, 4 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 1
+   tag               : 256
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+        block 1 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+        block 2 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+        block 3 :
+                  valid: 1
+                  tag  : 256
+                  0xffffffff
+                  0x00000002
+
+C. FA, 4 blocks, 2 words each block
+   blk/set to access : 0
+   valid bit         : 1
+   tag               : 1029
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1                  valid:   1                  valid:   1
+                  tag  :1030                  tag  :1025                  tag  :1026                  tag  :1027
+                  0x00000000                  0xffffffe1                  0xfffffff9                  0xffffffff
+                  0x00000000                  0x00000011                  0x00000005                  0x00000002
+
+D. 2way-SA, total 8 blocks, 2 words each block
+   blk/set to access : 2
+   valid bit         : 0
+   tag               : None
+   hit or not        : False
+   cache update info :
+         set 0 :
+                  valid:   1                  valid:   1
+                  tag  :256                  tag  :257
+                  0x00000000                  0x00000000
+                  0x00000041                  0x00000000
+         set 1 :
+                  valid:   1                  valid:   1
+                  tag  :256                  tag  :257
+                  0xffffffe1                  0x00000000
+                  0x00000011                  0x00000000
+         set 2 :
+                  valid:   1                  valid:   1
+                  tag  :256                  tag  :257
+                  0xfffffff9                  0x00000000
+                  0x00000005                  0x00000000
+         set 3 :
+                  valid:   1                  valid:   0
+                  tag  :256                  tag  :None
+                  0xffffffff                  0x00000000
+                  0x00000002                  0x00000000
+
+E. Customized cache configuration
+   blk/set to access : 1
+   valid bit         : 1
+   tag               : 256
+   hit or not        : False
+   cache update info :
+        block 0 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+        block 1 :
+                  valid: 1
+                  tag  : 257
+                  0x00000000
+                  0x00000000
+                  0x00000000
+                  0x00000000
+=== Cache Log End ====
+
+Cycles 615:
+PC =64 Instruction: 0x00812020 :add $4,$4,$1
+Taking 4 cycles
+
+Cycles 619:
+PC =68 Instruction: 0x00a4082a :slt $1,$5,$4
+Taking 4 cycles
+
+Cycles 623:
+PC =72 Instruction: 0x10200001 :beq $1,$0,1
+Taking 3 cycles
+
+Cycles 626:
+PC =80 Instruction: 0x20420004 :addi $0,$2,$4
+Taking 4 cycles
+
+Cycles 630:
+PC =84 Instruction: 0x1446fff4 :bne $2,$6,-12
+Taking 3 cycles
+
+Cycles 633:
+PC =88 Instruction: 0xac052000 :sw $0,0(0x2000)
+Taking 4 cycles
+
+======== Finished simulation ========
+PC = 92
+Registers:   $0 = 0      $1 = 0      $2 = 40      $3 = 0      $4 = 0      $5 = 51      $6 = 40      $7 = 0
+Dynamic instructions count: 161
+
+For a multi-cycle MIPS CPU:
+    Total # of cycles: 640
+    |-   # of  take 3-cycle instruction: 34
+    |-   # of  take 4-cycle instruction: 97
+    |_   # of  take 5-cycle instruction: 30
+
+For a pipelined MIPS CPU:
+    Total # of cycles: 224
+    Total # of stalls: 59
+    |-   # of  lw-use stalls        : 30
+    |-   # of  branch-flush stalls  : 2
+    |_   # of  compute used by brch : 27
+
+For cache configuration A:
+    Hit rate: 0.87
+For cache configuration B:
+    Hit rate: 0.77
+For cache configuration C:
+    Hit rate: 0.70
+For cache configuration D:
+    Hit rate: 0.77
+For cache configuration E:
+    Hit rate: 0.87
+
+Process finished with exit code 0
