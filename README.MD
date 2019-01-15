@@ -1,4 +1,4 @@
-# Course Projects from Com. Organ. Course in the Univ.of.ILL.at.Chi
+# Course Projects from Com. Organ. Course at the Univ.of.ILL.at.Chi
 
 1. two little program in MIPS assembly
 
